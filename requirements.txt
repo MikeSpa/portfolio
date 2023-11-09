@@ -3,4 +3,5 @@ django
 black
 pytest
 pylint
+flake8
 coverage
