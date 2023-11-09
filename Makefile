@@ -3,3 +3,12 @@ install:
 
 format:
 	black *.py
+
+migrate:
+	python3 manage.py migrate
+
+migrations:
+	python3 manage.py makemigrations
+
+test:
+	coverage run manage.py test

@@ -3,3 +3,4 @@ django
 black
 pytest
 pylint
+coverage
