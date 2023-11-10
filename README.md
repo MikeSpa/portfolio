@@ -8,8 +8,8 @@
 
 ### Project App
 
-- [ ] Add project 
-- [ ] add picture
+- [x] Add project 
+- [x] add picture
 - [ ] add tag
 - [ ] Tests
 
@@ -19,4 +19,4 @@
 - [ ] Tests
 
 ### Front-End
-- [ ] Header/Footer
+- [x] Header/Footer
