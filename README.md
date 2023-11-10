@@ -11,6 +11,7 @@
 - [x] Add project 
 - [x] add picture
 - [ ] add tag
+- [ ] add image carousel in project detail
 - [ ] Tests
 
 ### Blog App

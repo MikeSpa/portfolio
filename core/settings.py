@@ -17,7 +17,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Media
 MEDIA_ROOT = BASE_DIR / "uploads/"
-MEDIA_URL = "mdeia/"
+MEDIA_URL = "media/"
 
 # Contact
 DEFAULT_FROM_EMAIL = "contact@django-portfolio.com"
@@ -48,6 +48,7 @@ INSTALLED_APPS = [
     "blog",
     "projects",
     "contact",
+    "rest_framework",
 ]
 
 MIDDLEWARE = [
