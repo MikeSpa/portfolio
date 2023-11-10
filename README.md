@@ -6,8 +6,17 @@
 
 ## TODO
 
-### Blog App
--[ ] Header/Footer  
--[ ] Setup main blog page  
--[ ] Setup indiv. blog page
+### Project App
+
+- [ ] Add project 
+- [ ] add picture
+- [ ] add tag
 - [ ] Tests
+
+### Blog App
+- [ ] Setup main blog page  
+- [ ] Setup indiv. blog page
+- [ ] Tests
+
+### Front-End
+- [ ] Header/Footer
