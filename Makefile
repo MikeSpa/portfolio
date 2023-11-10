@@ -12,3 +12,6 @@ migrations:
 
 test:
 	coverage run manage.py test
+
+runserver:
+	python3 manage.py runserver
