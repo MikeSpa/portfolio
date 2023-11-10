@@ -15,8 +15,13 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Media
 MEDIA_ROOT = BASE_DIR / "uploads/"
 MEDIA_URL = "mdeia/"
+
+# Contact
+DEFAULT_FROM_EMAIL = "contact@django-portfolio.com"
+EMAIL_BACKEND = "django.core.mail.backends.console.EmailBackend"
 
 
 # Quick-start development settings - unsuitable for production
@@ -42,6 +47,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "blog",
     "projects",
+    "contact",
 ]
 
 MIDDLEWARE = [
