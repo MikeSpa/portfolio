@@ -10,3 +10,4 @@
 -[ ] Header/Footer  
 -[ ] Setup main blog page  
 -[ ] Setup indiv. blog page
+- [ ] Tests

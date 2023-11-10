@@ -18,3 +18,14 @@ class ModelTesting(TestCase):
     def test_str(self):
         d = self.blog
         self.assertEqual(str(d), "Setting up a django post for testing")
+
+
+class ViewTesting(TestCase):
+    def test_view_url_exists_at_desired_location(self):
+        response = self.client.get("/blog/")
+        self.assertEqual(response.status_code, 200)
+
+    def test_view_uses_correct_template(self):
+        response = self.client.get("/blog/")
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, "blog/home.html")
