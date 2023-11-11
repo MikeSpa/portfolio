@@ -1,7 +1,10 @@
 from django.urls import path
-from projects import views
+
+# from projects import views
+from .views import ProjectList, ProjectDetail
+
 
 urlpatterns = [
-    path("", views.project_index, name="project_index"),
-    path("<int:pk>/", views.project_detail, name="project_detail"),
+    path("", ProjectList.as_view(), name="project_index"),
+    path("<int:pk>/", ProjectDetail.as_view(), name="project_detail"),
 ]

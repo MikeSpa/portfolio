@@ -37,10 +37,10 @@ class ViewTesting(TestCase):
         response = self.client.get("/projects/")
         self.assertEqual(response.status_code, 200)
 
-    def test_view_project_index_uses_correct_template(self):
+    def test_view_project_list_uses_correct_template(self):
         response = self.client.get("/projects/")
         self.assertEqual(response.status_code, 200)
-        self.assertTemplateUsed(response, "projects/project_index.html")
+        self.assertTemplateUsed(response, "projects/project_list.html")
 
     def test_view_project_detail_uses_correct_template(self):
         response = self.client.get("/projects/1/")

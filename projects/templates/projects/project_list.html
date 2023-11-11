@@ -3,7 +3,7 @@
 {% block page_content %}
 <h1>Projects</h1>
 <div class="row">
-    {% for project in projects %}
+    {% for project in object_list %}
     <div class="col-md-4">
         <div class="card mb-2">
             {% if project.image %}
