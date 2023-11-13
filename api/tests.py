@@ -129,7 +129,7 @@ class ViewTesting(TestCase):
         )
         project = Project.objects.get(pk=1)
         serializer = ProjectSerializer(project)
-        self.assertEqual(response.status_code, status.HTTP_201_CREATED)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.assertEqual(response.data, serializer.data)
 
     def test_update_project_put_invalid_project(self):
